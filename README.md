@@ -21,16 +21,18 @@
  ## 아래 순서와 같이 진행하세요
   1.  레파지토리를 fork 합니다.
   2.  clone을 합니다.
-    * `git clone -b master [your repoistory]`
+    * `git clone [your repoistory]`
 
 ## 저장소를 항상 최신상태로 유지하기 원하면 아래와 같이 더 진행하세요.
   1. upstream에 이 레파지토리를 추가합니다.
-    * `git remote add upstream this-url`
-  2.  fetch를 upstream으로 진행합니다.
+    * `git remote add upstream https://github.com/HacksDepper/data-structure.git`
+  2. 추가된 원격 레파지토리를 확인합니다.
+    * `git remote -v`
+  3.  fetch를 upstream으로 진행합니다.
     * `git fetch upstream`
-  3. upstream/master 브런치에서 master 브런치로 변경합니다.
+  4. upstream/master 브런치에서 master 브런치로 변경합니다.
     * `git checkout master`
-  4. 브런치를 병합(merge)합니다.
+  5. 브런치를 병합(merge)합니다.
     * `git merge upstream/merge`
 
 # 커밋 룰
