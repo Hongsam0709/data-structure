@@ -25,7 +25,7 @@
 
 ## 저장소를 항상 최신상태로 유지하기 원하면 아래와 같이 더 진행하세요.
   1. upstream에 이 레파지토리를 추가합니다.
-    * `git remote add upstream https://github.com/HacksDepper/data-structure.git`
+    * `git remote add upstream https://github.com/juniors-study/data-structure.git`
   2. 추가된 원격 레파지토리를 확인합니다.
     * `git remote -v`
   3.  fetch를 upstream으로 진행합니다.
