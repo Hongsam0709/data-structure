@@ -53,7 +53,7 @@
 아래 예제를 참조하며 작성합니다.
 
 ```
-ex: 001 @yourname Java Solution
+ex: 001 @dongyeonlee Java Solution
 ```
 
 ## 파일 이름 규칙
