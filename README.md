@@ -18,7 +18,7 @@
   14. Graph (그래프)
 
 # 참여방법
- ## 아래 순서와 같이 진행하세요
+## 아래 순서와 같이 진행하세요
   1.  레파지토리를 fork 합니다.
   2.  clone을 합니다.
     * `git clone [your repoistory]`
