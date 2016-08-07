@@ -40,9 +40,11 @@
 (커밋당 1개의 수정 또는 풀이 또는 작업)
   1.  작성한 코딩을 마스터브랜치에 커밋합니다.
     * `git commit -m "메시지"` **커밋 메시지는 아래를 참조합니다.**
-  2.  fork한 레파지토리에 반영합니다.
+  2.  commit 이력관리를 위해 rebase를 합니다
+    * `git pull --rebase origin master`
+  3.  fork한 레파지토리에 반영합니다.
     * `git push origin master`
-  3.  PR을 보냅니다.
+  4.  PR을 보냅니다.
     * fork한 레파지토리에서 Pull Requests에서 new Pull Request를 발행합니다.
     * Pull Request에 내용을 적습니다. <br>
       ```ex: @yourname stack Java Solution```
